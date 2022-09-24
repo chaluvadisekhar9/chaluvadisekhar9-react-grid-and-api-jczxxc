@@ -1,0 +1,139 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+body{
+  background-image: linear-gradient(to right,#2fb9b0,#546673);
+}
+.App {
+  margin-top: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+.counterPage{
+  padding: 1rem;
+  color: white;
+  display: block;
+  align-items: center;
+  justify-items: center;
+}
+.counterPage h1{
+  padding: 1.5rem;
+}
+.timerPart{
+  margin: auto;
+  height: 80vh;
+  width: 75vw;
+  background-color: #24373b;
+  background-image: linear-gradient(to right, #214244,#253136);
+  box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+}
+
+.sec{
+  height: 8rem;
+  display: block;
+}
+.numB{
+  font-size: 5rem;
+  display: block;
+  align-items: center;
+  justify-items: center;
+  font-weight: 0.01rem;
+}
+.sec p{
+  padding: 0.01rem;
+  border: 1px solid white;
+  width: fit-content;
+  margin: auto;
+}
+.iconResize{
+  font-size: 2rem;
+}
+.nextLaunches{
+  margin: auto;
+  height: 80vh;
+  width: 75vw;
+  background-color: #24373b;
+  background-image: linear-gradient(to right, #214244,#253136);
+  box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .App {
+    margin-top: 0;
+    text-align: center;
+    background-image: linear-gradient(to right,#2fb9b0,#546673);
+    height: 100vh;
+    width: 100vw;
+  }
+  .counterPage{
+    padding: 1rem;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-items: center;
+  }
+  .counterPage h1{
+    padding: 1rem;
+  }
+  .timerPart{
+    margin: auto;
+    height: 80vh;
+    width: 75vw;
+    background-color: #24373b;
+    background-image: linear-gradient(to right, #214244,#253136);
+    box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+  }
+  
+  .sec{
+    height: 8rem;
+    display: block;
+  }
+  .numB{
+    font-size: 5rem;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    font-weight: 0.01rem;
+  }
+  .sec p{
+    padding: 0.01rem;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media screen and (min-width: 100px) and (max-width: 575px) {
+  .App{
+    background-color: red;
+  }
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  
+}
