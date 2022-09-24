@@ -57,8 +57,9 @@ body{
   height: 80vh;
   width: 75vw;
   background-color: #24373b;
-  background-image: linear-gradient(to right, #214244,#253136);
+  background-image: linear-gradient(to right, #392938,#251f2f);
   box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+  display: hidden;
 }
 
 /* Extra small devices (phones, 600px and down) */
