@@ -10,9 +10,10 @@ function App() {
     setIsShown(current => !current)
     setIsShown(true);
   }
+  const startDate = new Date("Sep 28, 2022 15:37:25").getTime();
   return (
     <div className="App">
-      <CountDown/>
+      <CountDown startDate = {startDate}/>
       <footer>
       <FaArrowDown onClick = {handlerClick} className='iconResizecd'/>
       {

@@ -56,30 +56,49 @@ body{
   margin: auto;
   height: 80vh;
   width: 75vw;
+  display: block;
   background-color: #24373b;
   background-image: linear-gradient(to right, #392938,#251f2f);
   box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
-  display: hidden;
+  padding-top: 4rem;
 }
+.centerTable{
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, tr, td  {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.01rem;
+  border: 0.02rem solid white;
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+}
+tr:hover {background-color: rgb(157, 149, 226);}
+/*--------------------------------------------------------------------*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media screen and (min-width: 100px) and (max-width: 575px) {
   .App {
     margin-top: 0;
     text-align: center;
-    background-image: linear-gradient(to right,#2fb9b0,#546673);
     height: 100vh;
-    width: 100vw;
+    width: 100%;
   }
   .counterPage{
-    padding: 1rem;
+    padding: 0.5rem;
     color: white;
     display: block;
     align-items: center;
     justify-items: center;
   }
   .counterPage h1{
-    padding: 1rem;
+    font-size: 1.2rem;
+    padding: 0.4rem;
   }
   .timerPart{
     margin: auto;
@@ -91,11 +110,11 @@ body{
   }
   
   .sec{
-    height: 8rem;
+    height: 7rem;
     display: block;
   }
   .numB{
-    font-size: 5rem;
+    font-size: 4.1rem;
     display: block;
     align-items: center;
     justify-items: center;
@@ -107,34 +126,272 @@ body{
     width: fit-content;
     margin: auto;
   }
-}
-
-
-/* Extra small devices (portrait phones, less than 576px)*/
-
-@media screen and (min-width: 100px) and (max-width: 575px) {
-  .App{
-    background-color: red;
+  .iconResize{
+    font-size: 2rem;
   }
+  .nextLaunches{
+    margin: auto;
+    height: 80vh;
+    width: 75vw;
+    display: block;
+    background-color: #24373b;
+    background-image: linear-gradient(to right, #392938,#251f2f);
+    box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+    padding-top: 4rem;
+  }
+  .centerTable{
+    
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  th, tr, td  {
+    width: fit-content;
+    height: fit-content;
+    font-size: 0.2rem;
+    padding: 0.01rem;
+    border: 0.02rem solid white;
+  
+  }
+  tr:hover {background-color: rgb(157, 149, 226);}
 }
 
 
-/* Small devices (landscape phones, less than 768px)*/
+/* Small devices (landscape phones, less than 767px)*/
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .App {
+    margin-top: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .counterPage{
+    padding: 0.5rem;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-items: center;
+  }
+  .counterPage h1{
+    font-size: 2rem;
+    padding: 0.4rem;
+  }
+  .timerPart{
+    margin: auto;
+    height: 80vh;
+    width: 75vw;
+    background-color: #24373b;
+    background-image: linear-gradient(to right, #214244,#253136);
+    box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+  }
+  .sec{
+    height: 10rem;
+    display: block;
+  }
+  .numB{
+    font-size: 5.8rem;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    font-weight: 0.01rem;
+  }
+  .sec p{
+    padding: 0.01rem;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+  }
+  .iconResize{
+    padding-top: 2rem;
+    font-size: 5rem;
+  }
+  .nextLaunches{
+    margin: auto;
+    height: 80vh;
+    width: 75vw;
+    display: block;
+    background-color: #24373b;
+    background-image: linear-gradient(to right, #392938,#251f2f);
+    box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+    padding-top: 4rem;
+  }
+  .centerTable{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+  }
+  th, tr, td  {
+    width: fit-content;
+    height: fit-content;
+    font-size:0.5rem;
+    padding: 0rem;
+    border: 0.02rem solid white;
   
+  }
+  tr:hover {background-color: rgb(157, 149, 226);}
 }
 
-
-/*Medium devices (tablets, less than 992px)*/
-
+/* Medium devices (ipod, less than 992px) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .App {
+    margin-top: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .counterPage{
+    padding: 0.5rem;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-items: center;
+  }
+  .counterPage h1{
+    font-size: 2rem;
+    padding: 0.4rem;
+  }
+  .timerPart{
+    margin: auto;
+    height: 80vh;
+    width: 75vw;
+    background-color: #24373b;
+    background-image: linear-gradient(to right, #214244,#253136);
+    box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+  }
+  .sec{
+    height: 13rem;
+    display: block;
+  }
+  .numB{
+    font-size: 7rem;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    font-weight: 0.01rem;
+  }
+  .sec p{
+    padding: 0.01rem;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+  }
+  .iconResize{
+    font-size: 5rem;
+  }
+  .nextLaunches{
+    margin: auto;
+    height: 80vh;
+    width: 75vw;
+    display: block;
+    background-color: #24373b;
+    background-image: linear-gradient(to right, #392938,#251f2f);
+    box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+    padding-top: 4rem;
+  }
+  .centerTable{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+  }
+  th, tr, td  {
+    width: fit-content;
+    height: fit-content;
+    font-size: 0.6rem;
+    padding: 0rem;
+    border: 0.02rem solid white;
   
+  }
+  tr:hover {background-color: rgb(157, 149, 226);}
 }
+
 
 
 /* Large devices (desktops, less than 1200px) */
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+  .App {
+    margin-top: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .counterPage{
+    padding: 1rem;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-items: center;
+  }
+  .counterPage h1{
+    font-size: 3.6rem;
+    padding: 1.5rem;
+  }
+  .timerPart{
+    margin: auto;
+    height: 80vh;
+    width: 75vw;
+    background-color: #24373b;
+    background-image: linear-gradient(to right, #214244,#253136);
+    box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+  }
   
+  .sec{
+    height: 15rem;
+    display: block;
+  }
+  .numB{
+    font-size: 8rem;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    font-weight: 0.01rem;
+  }
+  .sec p{
+    padding: 0.01rem;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+  }
+  .iconResize{
+    font-size: 4rem;
+  }
+  .nextLaunches{
+    margin: auto;
+    height: 80vh;
+    width: 75vw;
+    display: block;
+    background-color: #24373b;
+    background-image: linear-gradient(to right, #392938,#251f2f);
+    box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
+    padding-top: 4rem;
+  }
+  .centerTable{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  th, tr, td  {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.01rem;
+    border: 0.02rem solid white;
+    font-size: 0.9rem;
+  
+  }
+  tr:hover {background-color: rgb(157, 149, 226);}
 }
