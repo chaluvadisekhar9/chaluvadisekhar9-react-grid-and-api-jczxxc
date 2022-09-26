@@ -21,6 +21,7 @@ body{
   justify-items: center;
 }
 .counterPage h1{
+  font-size: large;
   padding: 1.5rem;
 }
 .timerPart{
@@ -33,11 +34,11 @@ body{
 }
 
 .sec{
-  height: 8rem;
+  height: 7.2rem;
   display: block;
 }
 .numB{
-  font-size: 5rem;
+  font-size: 4rem;
   display: block;
   align-items: center;
   justify-items: center;
@@ -267,7 +268,7 @@ tr:hover {background-color: rgb(157, 149, 226);}
     box-shadow: 0.08rem 0.1rem 0.08rem 0.08rem #152022;
   }
   .sec{
-    height: 13rem;
+    height: 10rem;
     display: block;
   }
   .numB{
@@ -335,7 +336,7 @@ tr:hover {background-color: rgb(157, 149, 226);}
     justify-items: center;
   }
   .counterPage h1{
-    font-size: 3.6rem;
+    font-size: 3.1rem;
     padding: 1.5rem;
   }
   .timerPart{
@@ -348,7 +349,7 @@ tr:hover {background-color: rgb(157, 149, 226);}
   }
   
   .sec{
-    height: 15rem;
+    height: 12rem;
     display: block;
   }
   .numB{
